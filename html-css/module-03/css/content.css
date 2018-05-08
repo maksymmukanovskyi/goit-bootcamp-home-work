@@ -1,0 +1,41 @@
+.content{
+	display:block;
+	width: 960px;
+	vertical-align: top;
+	margin: auto;
+	color: #5F5F5F;
+	font-family: 'Playfair Display', serif;
+	
+
+}
+.article{
+	display: inline-block;
+	width: 470px;
+	margin-right: 16px;
+	margin-bottom: 100px;
+}
+.article:nth-child(5), .article:nth-child(6){
+	margin-bottom: 46px;
+}
+
+.article:nth-child(2n){
+	margin-right: 0;
+}
+.article-img{
+	display: block;
+	width: 100%;
+	margin-bottom: 28px;
+}
+.image-signage{
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-family: 'Open Sans', sans-serif;
+	color: #acacac;
+	
+}
+.article-title{
+	font-size: 34px;
+	margin-bottom: 24px;
+	font-weight: normal;
+} 	
