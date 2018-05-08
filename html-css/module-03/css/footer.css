@@ -1,0 +1,13 @@
+.page-footer{
+	color: #5F5F5F;
+}
+ .button{
+ 	display: block;
+ 	margin: auto;
+ 	border: 1px solid #5f5f5f;
+ 	padding: 15px 32px;
+ 	font-family: 'Playfair Display', serif;
+ 	font-size: 16px;
+ 	color: #5f5f5f;
+ 	background-color: #ffffff;
+ }
