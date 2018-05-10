@@ -1,0 +1,38 @@
+
+.page-header{
+	margin-bottom: 40px;
+
+}
+.logo{
+	float:left;
+	padding: 20px;
+}
+
+.menu{
+	float: right;
+	padding: 20px;
+	list-style:none;
+
+}
+.menu-item{
+	float: left;
+	margin-right: 10px;
+
+}
+.menu-item:last-child{
+	margin-right: 0;
+}
+.menu-link{
+
+	border: 1px solid black;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.menu-link:hover{
+	color: aqua;
+}
