@@ -14,7 +14,7 @@
 	margin-right: 16px;
 	margin-bottom: 100px;
 }
-.article:nth-child(5), .article:nth-child(6){
+.article:nth-last-child(-n+2){
 	margin-bottom: 46px;
 }
 
