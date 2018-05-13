@@ -32,12 +32,28 @@
 .article-img{
 	width: 100%;
 }
+
+
+/*.article:hover ::before{
+ 	opacity: 0;
+}
+
+.featured-button::before {
+	position: absolute;
+	height: 44px;
+	width: 255px;
+	display: block;
+	content: '';
+	background-color: #000;
+}*/
+
+
+
 .featured-button{
 	width: 255px;
-	float: left;
 	background-color: #323232;
     border: none;
-    padding: 0 0 0 6px;
+    padding: 0 0 0 0px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -47,16 +63,23 @@
 	text-transform: uppercase;
 }
 
+
+
 .button-name{
 	float: left;
-	background-color: #323232;
-	padding: 10px;
+	padding: 10px 10px 10px 16px;
 }
 .price{
 	float: right;
 	background-color: #8c8c8c;
 	padding: 10px;
 }
+.article:hover .featured-button{
+	background-color: #1abc9c;
+}
 
+.article:hover .price{
+	background-color: #7fd9c7;
+}
 
 

@@ -5,7 +5,6 @@
 }
 .logo{
 	float:left;
-	
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -20,7 +19,6 @@
 .menu{
 	float: right;
 	padding: 8px 0 8px 0;
-
 	list-style:none;
 
 }
@@ -41,10 +39,6 @@
 	font-weight: 800;
 	font-size: 14px;
 	color:#333;
-	
-	
-	
-	color: #333;
 }
 .menu-link:hover{
 	color: aqua; 
