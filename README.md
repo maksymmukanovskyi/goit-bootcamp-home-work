@@ -1,4 +1,4 @@
-# goit-fs6-course
+# goit-bootcamp-home-work
 2018-05-08-html-css-projects
 <!---link for static files------>
 <!--home-work-module-03-->
