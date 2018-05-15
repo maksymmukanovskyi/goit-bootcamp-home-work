@@ -1,4 +1,4 @@
-# goit-bootcamp-home-work
+# goit-bootcamp-home-works
 2018-05-08-html-css-projects
 <!---link for static files------>
 <!--home-work-module-03-->
