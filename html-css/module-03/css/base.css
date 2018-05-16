@@ -4,10 +4,10 @@
 	padding:0;
  }
  .wrapper{
- 	width: 1200px;
- 	margin: auto;
  	padding: 90px 0;
- 	outline: 1px solid #acacac;
-
- 	
+	 background-color: #fff;
+ }
+ .content{
+	 width: 960px;
+	 margin:auto;
  }
