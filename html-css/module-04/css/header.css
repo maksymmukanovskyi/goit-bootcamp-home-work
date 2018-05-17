@@ -1,45 +1,25 @@
-
 .page-header{
-	/*outline: 1px solid #333;*/
-	box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
+    padding: 80px 688px 280px 688PX;
+    background: #23232e;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
+
+
 .logo{
-	float:left;
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 30px;
-	color:#333;
+    display: block;
+    height: 134px;
+    width: 134px;
+    margin:auto;
+    background-image: url('../img/logo.png');
+    background-size: cover ;
+    margin-bottom:185px;
 }
-.logo::first-letter{
-	font-weight: 900;
-	color: #42A885;
+.white{
+    color: #fff;
 }
-
-.menu{
-	float: right;
-	padding: 8px 0 8px 0;
-	list-style:none;
-
-}
-.menu-item{
-	float: left;
-	margin-right: 32px;
-
-
-}
-.menu-item:last-child{
-	margin-right: 0;
-}
-.menu-link{
-	
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	font-size: 14px;
-	color:#333;
-}
-.menu-link:hover{
-	color: aqua; 
+.text-white{
+    width: 413px;
+    margin:auto;
+    color: #ffffff;
 }

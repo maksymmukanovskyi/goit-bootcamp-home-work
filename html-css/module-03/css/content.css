@@ -2,14 +2,16 @@
 	color: #5F5F5F;
 	font-family: 'Playfair Display', serif;
 	margin-bottom: 46px;
+	font-size: 0;
 	
 
 }
 .article{
 	display: inline-block;
-	width: 470px;
-	margin-right: 16px;
+	width: 460px;
+	margin-right: 30px;
 	margin-bottom: 100px;
+
 }
 .article:nth-last-child(-n+2){
 	margin-bottom: 0;
@@ -35,7 +37,10 @@
 	margin-bottom: 8px;
 }
 .article-title{
-	font-size: 34px;
+	font-size: 30px;
 	margin-bottom: 24px;
 	font-weight: normal;
-} 	
+}
+p{
+	font-size:16px;
+}

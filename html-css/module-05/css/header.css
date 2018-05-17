@@ -1,0 +1,45 @@
+
+.page-header{
+	/*outline: 1px solid #333;*/
+	box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
+}
+.logo{
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 30px;
+	color:#333;
+}
+.logo::first-letter{
+	font-weight: 900;
+	color: #42A885;
+}
+
+.menu{
+	float: right;
+	padding: 8px 0 8px 0;
+	list-style:none;
+
+}
+.menu-item{
+	float: left;
+	margin-right: 32px;
+
+
+}
+.menu-item:last-child{
+	margin-right: 0;
+}
+.menu-link{
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	color:#333;
+}
+.menu-link:hover{
+	color: aqua; 
+}
