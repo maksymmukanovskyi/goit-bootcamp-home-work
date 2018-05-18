@@ -1,0 +1,50 @@
+.footer {
+    padding: 242px 660px 264px;
+    background: #23232e;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-logo{
+    display: block;
+    height: 42px;
+    width: 85px;
+    margin:auto;
+    background-image: url('../img/footer.png');
+    background-size: cover ;
+    margin-bottom:56px;
+}
+.footer-text{
+    width: 400px;
+    margin:auto;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.link-footer{
+    height: 400px;
+    background: #fff;
+}
+.end{
+    line-height: 400px;
+    color: #7c7c7c;
+}
+#GET-name{
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    /*padding: 20px 54px;*/
+    cursor: pointer;
+}
+.submit{
+    background-color: #818baa;
+    display: inline-block;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    color: #fff;
+    padding: 20px 54px;
+    text-align: center;
+    cursor: pointer;
+}

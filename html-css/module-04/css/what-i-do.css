@@ -1,0 +1,40 @@
+.what-i-do-section{
+    padding:124px 490px 124px 490px;
+    background-color: #fff;
+    color: #464b4f;
+    font-family: 'Roboto', sans-serif;
+}
+.do-article{
+    width: 852px;
+    margin:0 auto 120px;
+
+}
+.text{
+    font-size: 30px;
+    margin:0 auto 50px;
+    text-align: center;
+}
+.text:last-child{
+    margin-bottom: 0;
+}
+.offer-list{
+    margin:auto;
+    list-style:none;
+    font-size: 0;
+}
+.offer-item{
+    display:inline-block;
+    width: 300px;
+    margin-right:16px;
+    font-size: 18px;
+}
+.offer-item:last-child{
+    margin-right: 0;
+}
+.offer-title{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.offer-text{
+    color: #888a8b;
+}
