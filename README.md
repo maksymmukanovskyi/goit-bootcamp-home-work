@@ -5,3 +5,5 @@
 https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-03/
 <!--home-work-module-04-->
 https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-04/
+<!--home-work-module-05-->
+https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-05/
