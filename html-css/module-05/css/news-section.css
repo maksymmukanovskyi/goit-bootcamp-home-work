@@ -1,8 +1,12 @@
-/*.news{
+.news{
 	
-	outline: 1px solid #333;
-}*/
-.figure{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.news-content{
+	padding: 90px 0;
+}
+.news-art{
 	/*outline: 1px solid #333;*/
 	width: 350px;
 	float: left;
@@ -11,34 +15,42 @@
 
 }
 
-.figure:nth-of-type(-n+3){
-	margin-top: 90px;
-}
-.figure:last-of-type{
+/*.news-art:nth-of-type(-n+3){*/
+	/*margin-top: 90px;
+}*/
+.news-art:last-of-type{
 	margin-right: 0;
 }
-.figure-img{
+.art-img{
+	display: block;
 	width: 100%;
 	margin-bottom: 15px;
 }
-.figure-title{
+.art-title{
 	font-size: 18px;
 	font-weight: 800;
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 12px;
+	margin-bottom: 38px;
 }
-.caption-line{
+/*.caption-line{*/
+	/*width: 136px;*/
+	/*height: 6px;*/
+	/*background-color: #1abc9c;*/
+	/**/
+/*}*/
+
+.art-title::after{
+	display: block;
+	content: '';
 	width: 136px;
 	height: 6px;
 	background-color: #1abc9c;
-	
+	margin-top: 20px;
 }
 .description{
-	margin-top: 26px;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 	font-size: 14px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+
 }
 .news-button{
 	width: 160px;
@@ -53,5 +65,4 @@
     font-weight: 300;
     font-size: 16px;
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
 }

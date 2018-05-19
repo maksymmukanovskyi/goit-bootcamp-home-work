@@ -5,12 +5,12 @@
 }
 
 body{
-	background-color: #ECECEC;
+	background-color: #fff;
 }
 .wrapper{
-	width: 1646px;
+	width: 1110px;
 	margin: auto;
-	padding: 48px 268px 120px 268px;
+	padding: 48px 0 120px;
 	/*outline: 1px solid #333;*/
 	background-color: #fff;
 }
@@ -21,7 +21,6 @@ body{
 	clear: both;
 }
 .main-content{
-	margin-top: 90px;
 	/*outline: 1px solid #333;*/
 	box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
 }

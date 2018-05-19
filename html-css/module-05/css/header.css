@@ -2,6 +2,8 @@
 .page-header{
 	/*outline: 1px solid #333;*/
 	box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
+	padding:0 20px;
+	margin-bottom: 90px;
 }
 .logo{
 	float:left;
@@ -18,13 +20,13 @@
 
 .menu{
 	float: right;
-	padding: 8px 0 8px 0;
 	list-style:none;
 
 }
 .menu-item{
 	float: left;
 	margin-right: 32px;
+	line-height:36px;
 
 
 }
