@@ -65,4 +65,9 @@
     font-weight: 300;
     font-size: 16px;
 	color: #ffffff;
+	transition-duration: 1s;
+}
+.news-button:hover{
+	transform: scale(1.1);
+	background: #447fff;
 }
