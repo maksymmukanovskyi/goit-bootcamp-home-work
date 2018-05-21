@@ -2,14 +2,17 @@
 
 }*/
 .featured-content{
-	padding: 90px 0;
+	/*padding: 90px 0;*/
+}
+.featured{
+	margin-bottom: 90px;
 }
 
 
 .article{
 	width: 255px;
 	float: left;
-	margin-right: 30px;
+	margin-right: 16px;
 	background-color: #e9f0fd;
 
 
