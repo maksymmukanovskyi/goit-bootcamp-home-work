@@ -1,0 +1,119 @@
+
+.title{
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.collection-member{
+    width: 254px;
+    float: left;
+    margin-right: 28px;
+    font-size: 0;
+    position: relative;
+}
+.collection-member:nth-of-type(4n+4){
+    margin-right: 0;
+}
+
+.article-img{
+    display: block;
+    width: 100%;
+}
+.ticket-ref{
+    display: none;
+    padding: 80px 34px;
+    width: 100%;
+    height: 251px;
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.3);
+    border:8px solid rgba(255, 255, 255, 0.6);
+    /*z-index: 1;*/
+}
+.collection-member:hover > .ticket-ref{
+    display: block;
+}
+/*********ICON LINKS***********/
+.icon{
+    display: inline-block;
+    margin:0 8px 8px 0;
+
+    width: 50px;
+    height: 50px;
+
+}
+.icon:nth-of-type(3){
+    margin-right: 0;
+}
+.add-button{
+    display: block;
+    margin:auto;
+    width: 166px;
+    height: 50px;
+    background-image: url(../img/icons/cart.svg);
+    background-repeat:no-repeat;
+    background-color: #525252;
+    border:4px solid rgba(255, 255, 255, 0.6);
+}
+
+/*display: block;*/
+/*width: 50px;*/
+/*height: 50px;*/
+/*font-size: 0;*/
+.icon-heart{
+    background-image: url(../img/icons/heart.svg);
+    background-repeat:no-repeat;
+    border:4px solid rgba(255, 255, 255, 0.6);
+}
+.icon-shuffle{
+    background-image: url(../img/icons/shuffle-arr.svg);
+    background-repeat:no-repeat;
+    border:4px solid rgba(255, 255, 255, 0.6);
+}
+.icon-clock{
+
+    background-image: url(../img/icons/clock.svg);
+    background-repeat:no-repeat;
+    border:4px solid rgba(255, 255, 255, 0.6);
+
+}
+
+
+.featured-button{
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button-name{
+    float: left;
+    width: 75%;
+    padding: 10px 0;
+    background-color: #555252;
+
+}
+.price{
+    float: right;
+    width: 25%;
+    background-color: #8c8c8c;
+    padding: 10px 0;
+
+}
+.collection-member:hover .button-name{
+    background-color: #1abc9c;
+}
+
+.collection-member:hover .price{
+    background-color: #7fd9c7;
+}
+
+
