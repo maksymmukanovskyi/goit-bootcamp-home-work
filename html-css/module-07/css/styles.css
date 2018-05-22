@@ -134,3 +134,9 @@ ul{
     display: block;
 }
 /********************************/
+/****************arrows******************/
+.sp {
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+}
