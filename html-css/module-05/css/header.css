@@ -1,56 +1,56 @@
 
 .page-header{
-	/*outline: 1px solid #333;*/
-	box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
-	margin-bottom: 90px;
+    /*outline: 1px solid #333;*/
+    box-shadow: 0 0 4px 4px rgba(0,0,0,0.1);
+    padding:32px 20px;
 }
 .logo{
-	float:left;
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 30px;
-	color:#333;
+    float:left;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    color:#333;
 }
 .logo::first-letter{
-	font-weight: 900;
-	color: #42A885;
+    font-weight: 900;
+    color: #42A885;
 }
 
 .menu{
-	float: right;
-	list-style:none;
+    float: right;
+    list-style:none;
 
 }
 .menu-item{
-	float: left;
-	padding:0 5px;
-	margin-right: 32px;
-	line-height:36px;
-	border-radius:8px;
-	transition-duration: 1s;
+    float: left;
+    padding:0 5px;
+    margin-right: 32px;
+    line-height:36px;
+    border-radius:8px;
+    transition-duration: 1s;
 }
 .menu-item:hover{
-	transform: scale(1.1);
-	background: #737373;
-	cursor: pointer;
+    transform: scale(1.1);
+    background: #737373;
+    cursor: pointer;
 
 
 
 }
 .menu-item:last-child{
-	margin-right: 0;
+    margin-right: 0;
 }
 .menu-link{
-	
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	font-size: 14px;
-	color:#333;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color:#333;
 
 }
 .menu-item:hover .menu-link{
-	color: #fff;
+    color: #fff;
 }

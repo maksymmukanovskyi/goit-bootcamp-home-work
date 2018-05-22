@@ -1,10 +1,4 @@
-.section-body{
-    width: 1100px;
-    margin:auto;
-    position: relative;
 
-
-}
 .main-title{
     font-size: 60px;
     color: #fefefe;
@@ -19,30 +13,39 @@
     margin: 0 0 0 168px;
 }
 .button-feature{
+    font-size: 0;
     margin:auto;
     position:absolute;
     width: 100%;
     text-align: center;
-    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .nav-btn-l {
-    padding: 10px 35px;
+    width: 102px;
+    text-align: center;
+    line-height: 98px;
     float: left;
-    background:#4F9B8A;
+    background-color: rgba(79,155,138,0.1);
     font-size: 60px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     border:2px solid rgba(255, 255, 255, 0.3);
+    transition: 1s;
 }
 .nav-btn-r {
-    padding: 10px 35px;
+    width: 102px;
+    text-align: center;
+    line-height: 98px;
     float: right;
-    background:#4F9B8A;
+    background-color: rgba(79,155,138,0.1);
     font-size: 60px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     border:2px solid rgba(255, 255, 255, 0.3);
+    transition: 1s;
+}
+.nav-btn-l:hover, .nav-btn-r:hover{
+    background-color: rgba(79,155,138,1);
 }

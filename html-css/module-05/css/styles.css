@@ -1,8 +1,12 @@
-@import 'base.css';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+@import 'reset.css';
 @import 'header.css';
-@import 'featured-section.css';
-@import 'news-section.css';
+@import 'nav-tour.css';
+@import 'card-select.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 
 
+
+
+
+/*font-family: 'Roboto', sans-serif;*/
