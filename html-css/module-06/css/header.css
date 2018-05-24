@@ -1,0 +1,24 @@
+.navigation{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.logo{
+    display: flex;
+    background-color: #ff4d10;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width: 400px;
+    align-items: center;
+}
+.menu-link{
+    flex-basis:18%;
+    background-color: #12ff00;
+}
