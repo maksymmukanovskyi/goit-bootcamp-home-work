@@ -1,24 +1,50 @@
-.navigation{
+.header{
     display: flex;
-    flex-direction:row;
+    flex-flow:row wrap;
     justify-content:space-between;
+    margin-bottom: 4.8rem;
+}
+.navigation{
+    flex-basis:40%;
+    /*display: flex;*/
+    /*flex-direction:row;*/
+    /*justify-content:space-between;*/
 }
 .logo{
     display: flex;
-    background-color: #ff4d10;
-    width: 80px;
-    height: 80px;
-    font-size: 30px;
+    font-size: 1.875rem;
     align-items: center;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    border-bottom: 0.0625rem transparent;
+    transition:1s;
 }
+.logo:hover {
+    transform: translate(3rem) scale(1.6);
+}
+
 .menu{
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
-    width: 400px;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    /*width: 482px;*/
     align-items: center;
 }
 .menu-link{
-    flex-basis:18%;
-    background-color: #12ff00;
+    align-self:center;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0.625rem 0;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-bottom:0.1875rem solid transparent;
+    cursor: pointer;
+    transition:1s;
+
+}
+.menu-link:hover{
+    border-bottom:0.1875rem solid #f38181;
+
 }

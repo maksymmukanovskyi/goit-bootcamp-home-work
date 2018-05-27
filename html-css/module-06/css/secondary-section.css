@@ -1,40 +1,73 @@
 .secondary-section{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
+    text-align: center;
+    margin-bottom: 0.625rem;
 }
 .story{
-    width: 942px;
+    width: 85%;
     text-align: center;
+    font-size:0.9375rem;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    margin: 0 auto 4.6875rem;
+
 }
 .card-body{
     width: 100%;
     display: flex;
-    flex-direction:row;
+    flex-flow:row wrap;
     justify-content:space-between;
+
 }
 .card{
     position: relative;
-    flex-basis:30%;
-    background-color: #ff5c00;
+    flex-basis:31.5%;
+    /*background-color: #ff5c00;*/
     cursor: pointer;
 
 }
+
 .pic{
     display: block;
     width: 100%;
+    /*height: 86%;*/
+    transition: 1s;
+    /*margin-bottom: 2rem;*/
 
+}
+
+
+.names{
+    font-size: 0.875rem;
+    padding-top: 2rem;
+    max-height:5.1875rem;
+    /*padding: 24px 0 12px;*/
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}
+.personal-name{
+    margin-bottom: 1rem;
+}
+.occupancy{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-style:italic;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 1rem;
 }
 .overlay{
     display: block;
     opacity:0;
     width: 100%;
-    height: 93%;
+    height: calc(100% - 6.139rem);
+    /*height: 76%;*/
     position: absolute;
     top: 0;
     left: 0;
     background-image:linear-gradient(to top, rgba(252,227,138,0.9), rgba(243, 129, 129,0.9));
-    transition: 0.9s;
+    transition: 1s;
 }
 .icon-body{
     display: flex;
@@ -44,17 +77,19 @@
     
 }
 .icons-cont{
-    width: 226px;
+    width: 70%;
+    height: 13.9%;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
 }
 .icon-wrapper{
-    width: 55px;
-    height: 55px;
+    flex-basis:24.5%;
+    /*height: 3.4375rem;*/
     background-color: #fce38a;
-    padding: 10px;
+    padding: 4%;
     cursor: pointer;
+    /*align-self:center;*/
 }
 
 .icon {
@@ -90,7 +125,16 @@
 }
 .card:hover > .overlay{
     opacity:1;
+    transform: translate(-0.625rem, -0.625rem);
+}
+.card:hover .pic{
+    transform: translate(-0.625rem, -0.625rem);
+    box-shadow:  0.625rem 0.625rem 0.0625rem 0.1875rem rgb(149, 225, 221);
 }
 .icon-wrapper:hover{
     background-color: #95e1d3;
+}
+.secondary-section{
+    padding-bottom: 5rem;
+    border-bottom:0.0625rem solid #e5e5e5;
 }
