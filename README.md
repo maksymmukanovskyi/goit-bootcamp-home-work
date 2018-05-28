@@ -11,4 +11,6 @@ https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-05/
 https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-06/
 <!--home-work-module-07-->
 https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-07/
+<!--home-work-module-08-->
+https://maksymmukanovskyi.github.io/goit-bootcamp-home-works/html-css/module-08/
 
