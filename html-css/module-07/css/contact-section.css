@@ -1,0 +1,113 @@
+.contact{
+    text-align: center;
+}
+.white{
+    color: #ffffff;
+}
+.cont-form{
+    text-transform: uppercase;
+}
+.input-fields{
+    display: flex;
+    /*flex-flow:row wrap;*/
+    justify-content:space-between;
+    width: 100%;
+    align-content:space-between;
+    margin-bottom: 1.875rem;
+
+}
+.line-column{
+    display: flex;
+    flex-direction:column;
+    flex-basis:49%;
+    justify-content:space-between;
+
+
+}
+#t-area{
+    flex-basis:49%;
+    border-radius: 0.1875rem;
+    border:none;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #bbbbbb;
+    padding:1rem 0 0 1rem;
+}
+input[type="text"], input[type="email"]{
+    padding-left:1rem;
+    height: 25%;
+    border-radius: 0.1875rem;
+    border:none;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #bbbbbb;
+}
+input[type="text"] {
+    display: block;
+    width: 100%;
+}
+input[type="email"] {
+    display: block;
+    width: 100%;
+}
+/*******************************/
+input:invalid {
+    border: 2px solid #ff1500;
+}
+input:valid {
+    border: 2px solid #44ff00;
+}
+#t-area:invalid {
+    border: 2px solid #ff1500;
+}
+#t-area:valid {
+    border: 2px solid #44ff00;
+}
+.mess-butt {
+    background-color: #fed136;
+    border: none;
+    color: white;
+    padding: 1.25rem 2.0625rem;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border-radius: 0.1875rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#t-area{
+    resize: none;
+}

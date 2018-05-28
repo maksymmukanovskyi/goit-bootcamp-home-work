@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style:none;
+}
+.wrapper-blank{
+    padding: 3.125rem 0;
+}
+.wrapper-map{
+
+    background-color: #222222;
+}
+.w-map{
+    padding: 3.125rem 0;
+    background-image: url(../img/pics/map.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    /*background-color: #be95ff;*/
+}
+.section-title{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #222222;
+    margin-bottom: 1.25rem;
+}
+.main-desc{
+    font-family: 'Droid Serif Italic V2', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #777777;
+    margin-bottom:5rem;
+}
