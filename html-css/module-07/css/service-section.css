@@ -31,19 +31,19 @@
 }
 
 .bask{
-    background-image: url(../img/icons/basket.png);
+    background-image: url(../img/icons/bask.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain;
 }
 .lap{
-    background-image: url(../img/icons/laptop.png);
+    background-image: url(../img/icons/lap.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain;
 }
 .lock{
-    background-image: url(../img/icons/locked.png);
+    background-image: url(../img/icons/lock.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain;
