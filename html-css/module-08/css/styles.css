@@ -1,7 +1,7 @@
 @import'reset.css';
 @import 'header.css';
-@import 'service-section.css';
-@import 'contact-section.css';
+@import 'holiday-offer.css';
+@import 'partner-search.css';
 
 /***********fonts***********************/
 
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'Roboto Light V1';
     src: url('../fonts/Roboto Light V1/Roboto Light V1/Roboto Light V1.woff') format('woff'), url('../fonts/Roboto Light V1/Roboto Light V1/Roboto Light V1.woff2') format('woff2'), url('../fonts/Roboto Light V1/Roboto Light V1/Roboto Light V1.ttf') format('truetype');
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 

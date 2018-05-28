@@ -1,0 +1,58 @@
+.offer{
+    text-align: center;
+
+}
+.offer-sub{
+    font-family: 'Roboto Light V1', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #fff;
+    margin:0 auto 2.5rem;
+}
+
+
+
+
+.offer-button {
+    background-color: #ff4e50;
+    border: none;
+    color: white;
+    padding: 0.875rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border-radius: 1.875rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#t-area{
+    resize: none;
+}

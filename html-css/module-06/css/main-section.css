@@ -26,10 +26,11 @@
     color: #8e8e8e;
     text-transform: uppercase;
     transition:1s;
+    margin-bottom: 1rem;
 
 }
 .article-desc{
-    font-size:15px;
+    font-size:0.9375rem;
     font-family: 'Roboto', sans-serif;
     color: #999999;
     transition: 1s;
