@@ -41,10 +41,10 @@
 }
 
 .logo{
-    font-size: 1.625rem;
-    color: #fed136;
-    font-family: 'Wisdom Script AI', sans-serif;
-    font-weight: 400;
+    font-size: 1.25rem;
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
     text-transform: capitalize;
 }
 .menu-link{
