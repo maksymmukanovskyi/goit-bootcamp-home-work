@@ -16,15 +16,23 @@ ul{
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover ;
-    padding: 2.875rem 0 14.625rem;
+    padding: 1.3rem 0 8.6875rem;
 }
-.wrapper-blank{
-    padding:4.375rem 0;
-    background-color: #dbdbdb;
-}
+/*.wrapper-blank{*/
+    /*padding:4.375rem 0;*/
+    /*background-color: #dbdbdb;*/
+/*}*/
 .container{
-    width: 65%;
-    margin:auto;
+    min-width: 20rem;
+    max-width: 100rem;
+    margin: auto;
+    padding:0 1rem;
+}
+img{
+    display: block;
+    max-width: 100px;
+    height: auto;
+    margin: auto;
 }
 /*.w-map{*/
     /*padding: 3.125rem 0;*/
@@ -39,11 +47,10 @@ ul{
     /*!*background-color: #be95ff;*!*/
 /*}*/
 .main-title{
-    width: 84%;
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 3.25rem;
+    font-size: 1.875rem;
     color: #fff;
-    margin:0 auto 2.5rem;
+    margin:0 auto 1.1rem;
 }

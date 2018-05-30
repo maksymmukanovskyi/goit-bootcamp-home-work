@@ -3,11 +3,13 @@
 
 }
 .offer-sub{
+    width: 80%;
     font-family: 'Roboto Light V1', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     color: #fff;
-    margin:0 auto 2.5rem;
+    margin:0 auto 1.1rem;
+
 }
 
 
@@ -17,11 +19,9 @@
     background-color: #ff4e50;
     border: none;
     color: white;
-    padding: 0.875rem 1.5rem;
+    padding: 0.875rem 3.25rem;
     text-align: center;
     text-decoration: none;
-    /*display: inline-block;*/
-    /*margin: 4px 2px;*/
     cursor: pointer;
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: 700;
