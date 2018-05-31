@@ -16,7 +16,7 @@ ul{
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover ;
-    padding: 1.3rem 0 8.6875rem;
+    padding: 2.3rem 0 8.6875rem;
 }
 .wrapper-blank{
     padding:4.375rem 0;
@@ -24,7 +24,7 @@ ul{
 }
 .container{
     min-width: 20rem;
-    max-width: 100rem;
+    max-width: 64rem;
     margin: auto;
     padding:0 1rem;
 }
@@ -34,18 +34,6 @@ img{
     height: auto;
     margin: auto;
 }
-/*.w-map{*/
-    /*padding: 3.125rem 0;*/
-    /*background-image: url(../img/pics/map.png);*/
-    /*background-repeat:no-repeat;*/
-    /*background-position: right;*/
-    /*background-size: contain;*/
-/*}*/
-/*.container{*/
-    /*width: 80%;*/
-    /*margin:auto;*/
-    /*!*background-color: #be95ff;*!*/
-/*}*/
 .main-title{
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: 700;
@@ -53,4 +41,7 @@ img{
     font-size: 1.875rem;
     color: #fff;
     margin:0 auto 1.1rem;
+}
+@media(min-width: 768px){
+
 }

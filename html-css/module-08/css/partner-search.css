@@ -124,3 +124,25 @@
     border-radius: 1.875rem;
     max-width:18rem;
 }
+@media(min-width: 768px){
+    .partners-menu{
+        display: flex;
+        flex-flow:row wrap;
+        justify-content:space-evenly;
+    }
+    .partners-item{
+            flex-basis:34%
+        }
+    .partners-search{
+        /*max-width:11.8125rem;*/
+        padding: 0.6875rem 1.875rem;
+    }
+    .secondary-title{
+        margin-bottom: 2rem;
+    }
+}
+@media(min-width: 1024px){
+    .partners-item{
+        flex-basis:25%;
+    }
+}

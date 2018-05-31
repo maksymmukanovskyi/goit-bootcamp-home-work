@@ -11,10 +11,6 @@
     margin:0 auto 1.1rem;
 
 }
-
-
-
-
 .offer-button {
     background-color: #ff4e50;
     border: none;
@@ -28,6 +24,24 @@
     font-size: 0.875rem;
     border-radius: 1.875rem;
     max-width:18rem;
+}
+@media(min-width: 768px){
+    .main-title{
+        font-size:3.25rem;
+        width: 70%;
+        margin-bottom: 2.5rem;
+    }
+    .wrapper-bg-image{
+        padding-bottom:14.5rem;
+    }
+    .offer-sub{
+        margin-bottom:2.5rem;
+    }
+}
+@media(min-width: 1024px){
+    .main-title{
+        width: 60%;
+    }
 }
 
 
