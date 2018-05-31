@@ -18,10 +18,10 @@ ul{
     background-size: cover ;
     padding: 1.3rem 0 8.6875rem;
 }
-/*.wrapper-blank{*/
-    /*padding:4.375rem 0;*/
-    /*background-color: #dbdbdb;*/
-/*}*/
+.wrapper-blank{
+    padding:4.375rem 0;
+    background-color: #fff;
+}
 .container{
     min-width: 20rem;
     max-width: 100rem;

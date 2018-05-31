@@ -18,7 +18,7 @@
 .offer-button {
     background-color: #ff4e50;
     border: none;
-    color: white;
+    color: #fff;
     padding: 0.875rem 3.25rem;
     text-align: center;
     text-decoration: none;
@@ -27,6 +27,7 @@
     font-weight: 700;
     font-size: 0.875rem;
     border-radius: 1.875rem;
+    max-width:18rem;
 }
 
 
