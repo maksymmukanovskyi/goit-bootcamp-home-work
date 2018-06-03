@@ -124,7 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../goit-in-class-works/2018-05-31 GRIDS" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -157,12 +157,12 @@
       <workItem from="1527715275571" duration="4340000" />
       <workItem from="1527749521292" duration="1912000" />
       <workItem from="1527753255342" duration="1160000" />
-      <workItem from="1527760007573" duration="7174000" />
+      <workItem from="1527760007573" duration="7779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28310000" />
+    <option name="totallyTimeSpent" value="28915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
