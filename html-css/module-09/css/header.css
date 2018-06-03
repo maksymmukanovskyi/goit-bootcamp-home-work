@@ -21,21 +21,23 @@
 
 .header__submit-bt{
     background-color: transparent;
-    border:none;
+    /*border:none;*/
     color: white;
     padding: 0.625rem 1.5rem;
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
     /*margin: 4px 2px;*/
+    border:  1px solid transparent;
     cursor: pointer;
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: 700;
     font-size: 0.875rem;
     border-radius: 1.875rem;
+    transition:1s;
 }
 
-.header__submit-bt--right{
+.header__submit-bt--hover:hover{
     border: 1px solid white;
 }
 
