@@ -22,13 +22,13 @@
 .header__submit-bt{
     background-color: transparent;
     /*border:none;*/
-    color: white;
+    color: #ffffff;
     padding: 0.625rem 1.5rem;
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
     /*margin: 4px 2px;*/
-    border:  1px solid transparent;
+    border:  2px solid transparent;
     cursor: pointer;
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: 700;
@@ -38,7 +38,7 @@
 }
 
 .header__submit-bt--hover:hover{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .header__logo{
