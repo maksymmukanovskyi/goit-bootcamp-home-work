@@ -1,0 +1,71 @@
+.body-title{
+    text-align: center;
+}
+.offer__sub{
+    /*width: 80%;*/
+    font-family: 'Roboto Light V1', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #fff;
+    margin:0 auto 2rem;
+}
+.btn{
+    background-color: #ff4e50;
+    border: none;
+    color: #fff;
+    padding: 0.875rem 3.25rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border-radius: 1.875rem;
+    max-width:18rem;
+    transition:1s;
+}
+.btn--hover:hover{
+    background-color: #333333;
+}
+@media(min-width: 768px){
+    .main-title{
+        font-size:3.25rem;
+        width: 70%;
+        margin-bottom: 2.5rem;
+    }
+    .wrapper-bg-image{
+        padding-bottom:14.5rem;
+    }
+    .offer__sub{
+        margin-bottom:2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#t-area{
+    resize: none;
+}
