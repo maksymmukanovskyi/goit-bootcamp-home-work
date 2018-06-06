@@ -1,5 +1,4 @@
 .partner{
-    text-align: center;
     display:grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: minmax(min-content, max-content);
@@ -35,6 +34,7 @@
 
 }
 .partners-item__picture-name{
+    text-align: center;
     font-size: 0.875rem;
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: 700;
@@ -42,6 +42,7 @@
     margin-bottom: 1.125rem;
 }
 .partners-item__picture-desc{
+    text-align: center;
     width: 75%;
     font-family: 'Roboto Light V1',sans-serif;
     color: #666666;
@@ -163,13 +164,15 @@
 }
 
 @media(min-width: 768px){
-    .partners-menu{
-        display: flex;
-        flex-flow:row wrap;
-        justify-content:space-evenly;
-    }
     .partners-item{
-            flex-basis:34%
+        display: block;
+        margin: 0 auto 1.6875rem;
+        grid-column: 1/5;
+    }
+
+    .partners-item{
+            /*flex-basis:34%*/
+        /*width: 34%;*/
         }
     .btn--search{
         /*max-width:11.8125rem;*/
