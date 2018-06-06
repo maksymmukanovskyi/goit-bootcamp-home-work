@@ -164,15 +164,15 @@
 }
 
 @media(min-width: 768px){
-    .partners-item{
-        display: block;
+    .partners-menu{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
         margin: 0 auto 1.6875rem;
-        grid-column: 1/5;
     }
 
     .partners-item{
-            /*flex-basis:34%*/
-        /*width: 34%;*/
+            flex-basis:34%
         }
     .btn--search{
         /*max-width:11.8125rem;*/
@@ -185,6 +185,7 @@
 }
 
 @media(min-width: 1024px){
+
     .partners-item{
         flex-basis:25%;
     }
