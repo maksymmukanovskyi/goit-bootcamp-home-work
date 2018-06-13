@@ -1,0 +1,62 @@
+.eagle-bgwr{
+  padding: 3.125rem 0 14.375rem;
+  background-image: linear-gradient(to top, $yellowRgba, $pinkRgba),url(../img/pic/bg-min.png);
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media  (min-resolution: 192dpi){
+  .eagle-bgwr{
+    background-image: linear-gradient(to top, $yellowRgba, $pinkRgba),url(../img/pic/bg-@2x-min.png);
+  }
+}
+
+.blank_bgwr{
+  background-color: $white;
+  padding: 3rem 0 5rem;
+}
+
+.content{
+  max-width: 75rem;
+  margin: auto;
+}
+
+.main-desc{
+  font-size: 1.5rem;
+  color: $gray;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 1rem;
+}
+
+.section-title{
+  font-size: 1.875rem;
+  color: $gray;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 3.125rem;
+}
+
+.section-title--after::after{
+  display: block;
+  content: '';
+  width: 3.75rem;
+  height: 0.1875rem;
+  background-color: $pink;
+  margin: 2.625rem auto 0;
+}
+
+.btn{
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 0.7rem 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}

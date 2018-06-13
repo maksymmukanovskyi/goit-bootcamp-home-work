@@ -1,0 +1,45 @@
+//-------------functions---------
+@function rem($px) {
+  $result: $px / 16;
+  @return #{$result}rem;
+}
+@function prc($el, $container){
+  $result: $el / $container * 100%;
+  @return #{$result};
+}
+
+@mixin bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+//-----------colors-------------
+$yellow: #fce38a;
+$yellowRgba: rgba(252,227,138,0.9);
+$pink: #f38181;
+$pinkRgba: rgba(243, 129, 129,0.9);
+$white: #ffffff;
+$black: #000;
+$gray: #333333;;
+//---------fonts-----------
+$fontMuseoCyrl: 'Museo Sans Cyrl', sans-serif;
+$fontTitle: 'Museo Sans Cyrl', sans-serif;
+$fontOpenSans: 'Open Sans', sans-serif;
+$fontText: 'Open Sans', sans-serif;
+//$fontOpenSansExb: Open Sans Extrabold, sans-serif;
+//$fontOpenSansSemb: Open Sans Semibold, sans-serif;
+$fontProximaNova: 'Proxima Nova', sans-serif;
+//$fontProximaNovaExb: Proxima Nova Extrabold, sans-serif;
+$fontUbuntuMono: 'Ubuntu Mono', sans-serif;
+//$fontUbuntuMonoB: Ubuntu Mono Bold, sans-serif;
+//---------font-size-------
+$mobTitle: rem(25);
+$mobPar: rem(14);
+$mobBtn: rem(14);
+$tabTitle: rem(30);
+$tabPar: rem(14);
+$tabBtn: rem(14);
+$dtTitle: rem(42);
+$dtPar: rem(18);
+$dtBtn: rem(16);
