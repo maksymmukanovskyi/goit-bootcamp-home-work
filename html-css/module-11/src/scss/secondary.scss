@@ -30,13 +30,13 @@
   }
 }
 
-.card{
+.card {
   position: relative;
   -ms-flex-preferred-size: 31.5%;
   flex-basis: 31.5%;
   cursor: pointer;
 
-  &__pic{
+  &__pic {
     font-size: 0;
     display: block;
     width: 100%;
@@ -47,7 +47,7 @@
 
   }
 
-  &__names{
+  &__names {
     font-size: 0.875rem;
     max-height: 5.1875rem;
     font-family: 'Montserrat-Regular', sans-serif;
@@ -56,11 +56,11 @@
     text-transform: uppercase;
   }
 
-  &__personal-name{
+  &__personal-name {
     margin-bottom: 1rem;
   }
 
-  &__occupancy{
+  &__occupancy {
     font-family: 'Roboto Slab Regular', sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -69,7 +69,7 @@
     margin-bottom: 1rem;
   }
 
-  &__overlay{
+  &__overlay {
     display: block;
     opacity: 0;
     width: 100%;
@@ -77,16 +77,16 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252,227,138,0.9)), to(rgba(243, 129, 129,0.9)));
-    background-image: -webkit-linear-gradient(bottom, rgba(252,227,138,0.9), rgba(243, 129, 129,0.9));
-    background-image: -o-linear-gradient(bottom, rgba(252,227,138,0.9), rgba(243, 129, 129,0.9));
-    background-image: linear-gradient(to top, rgba(252,227,138,0.9), rgba(243, 129, 129,0.9));
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)));
+    background-image: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
   }
 
-  &__icon-body{
+  &__icon-body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -99,7 +99,7 @@
     height: 100%;
   }
 
-  &__icons-cont{
+  &__icons-cont {
     width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -113,7 +113,7 @@
     justify-content: space-between;
   }
 
-  &__icon-wrapper{
+  &__icon-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -152,7 +152,7 @@
     fill: #fff;
   }
 
-  .&--hover:hover > &__overlay{
+  &--hover:hover > &__overlay{
     opacity: 1;
     -webkit-transform: translate(-0.625rem, -0.625rem);
     -ms-transform: translate(-0.625rem, -0.625rem);
