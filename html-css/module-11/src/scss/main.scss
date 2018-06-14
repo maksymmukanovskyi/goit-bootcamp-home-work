@@ -40,10 +40,10 @@
   }
 
   &__title{
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 600;
-    font-size: 0.875rem;
-    color: #8e8e8e;
+    font-size: $smallTitle;
+    color: $lightGray;
     text-transform: uppercase;
     -webkit-transition: 1s;
     -o-transition: 1s;
@@ -53,9 +53,10 @@
   }
 
   &__desc{
-    font-size: 0.9375rem;
-    font-family: 'Roboto Slab Regular', sans-serif;
-    color: #999999;
+    font-size: $text;
+    font-family: $fontRoboto-Italic, sans-serif;
+    font-weight: 400;
+    color: $midGray;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
@@ -63,7 +64,7 @@
   }
 
   &__article:hover .info-table__desc{
-    color: #303030;
+    color: $gradGray;
   }
 
   &__right-article{
@@ -87,7 +88,7 @@
   &__svg{
     width: 2rem;
     height: 2rem;
-    fill: #95e1d3;
+    fill: $svgcolor;
   }
 
   &__article:hover > .info-table__icon{

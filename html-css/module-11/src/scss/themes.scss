@@ -2,9 +2,7 @@
   padding: 3.125rem 0 14.375rem;
   background-image: linear-gradient(to top, $yellowRgba, $pinkRgba),url(../img/pic/bg-min.png);
 
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
+  @include bg-img;
 }
 @media  (min-resolution: 192dpi){
   .eagle-bgwr{
@@ -23,16 +21,16 @@
 }
 
 .main-desc{
-  font-size: 1.5rem;
+  font-size: $mainDesc;
   color: $gray;
-  font-family: 'Kaushan Script', cursive;
+  font-family: $fontKaushan-Script, cursive;
   margin-bottom: 1rem;
 }
 
 .section-title{
-  font-size: 1.875rem;
+  font-size: $sectionTitle;
   color: $gray;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 3.125rem;
@@ -54,9 +52,9 @@
   padding: 0.7rem 2.5rem;
   text-align: center;
   text-decoration: none;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: $fontMontserrat, sans-serif;
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: $btnText;
   cursor: pointer;
   text-transform: uppercase;
 }

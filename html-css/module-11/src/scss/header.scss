@@ -20,12 +20,12 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 1.875rem;
+    font-size: $sectionTitle;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff;
-    font-family: 'Montserrat-Bold', sans-serif;
+    color: $white;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 800;
     border-bottom: 0.0625rem transparent;
     -webkit-transition: 1s;
@@ -37,7 +37,7 @@
     -webkit-transform: translate(3rem) scale(1.6);
     -ms-transform: translate(3rem) scale(1.6);
     transform: translate(3rem) scale(1.6);
-    color: #fce38a;
+    color: $yellow;
   }
 }
 
@@ -61,11 +61,11 @@
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-    font-size: 0.875rem;
+    font-size: $smallTitle;
     font-weight: 700;
     padding: 0.625rem 0;
-    color: #fff;
-    font-family: 'Montserrat-Regular', sans-serif;
+    color: $white;
+    font-family: $fontMontserrat, sans-serif;
     text-transform: uppercase;
     border-bottom: 0.1875rem solid transparent;
     cursor: pointer;
@@ -76,19 +76,19 @@
   }
 
   &__link:hover{
-    border-bottom: 0.1875rem solid #fce38a;
-    color: #fce38a;
+    border-bottom: 0.1875rem solid $yellow;
+    color: $yellow;
 
   }
 
   &__logo{
     height: 1.5625rem;
     width: 1.5625rem;
-    fill: #fff;
+    fill: $white;
   }
 
   &__logo:hover{
-    fill: #fce38a;
+    fill: $yellow;
   }
 }
 
@@ -101,16 +101,16 @@
   font-size: 0;
 
   &__template{
-    font-size: 4.5rem;
-    color: #fff;
-    font-family: 'Kaushan Script', cursive;
+    font-size: $welcomeTitle;
+    color: $white;
+    font-family: $fontKaushan-Script, cursive;
     margin-bottom: 1rem;
   }
 
   &__central{
-    font-size: 9.375rem;
-    color: #fff;
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: $centralTitle;
+    color: $white;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 6rem;

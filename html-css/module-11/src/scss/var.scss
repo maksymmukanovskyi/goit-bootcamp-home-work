@@ -11,7 +11,7 @@
 @mixin bg-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 
 //-----------colors-------------
@@ -23,6 +23,12 @@ $white: #ffffff;
 $black: #000;
 $gray: #333333;
 $white: #fff;
+$lightGray: #8e8e8e;
+$midGray: #999999;
+$gradGray: #303030;
+$svgcolor: #95e1d3;
+$bordercolor: #e5e5e5;
+$formbordercolor: #ccc;
 //---------fonts-----------
 $fontMontserrat: 'Montserrat', sans-serif;
 $fontRoboto: 'Roboto', sans-serif;
@@ -30,12 +36,11 @@ $fontRoboto-Italic: 'Roboto Italic', sans-serif;
 $fontKaushan-Script: 'Kaushan Script', sans-serif;
 
 //---------font-size-------
-$mobTitle: rem(25);
-$mobPar: rem(14);
-$mobBtn: rem(14);
-$tabTitle: rem(30);
-$tabPar: rem(14);
-$tabBtn: rem(14);
-$dtTitle: rem(42);
-$dtPar: rem(18);
-$dtBtn: rem(16);
+$centralTitle: rem(150);
+$sectionTitle: rem(30);
+$welcomeTitle: rem(72);
+$mainDesc: rem(24);
+$smallTitle: rem(14);
+$text: rem(15);
+$btnText: rem(14);
+$emailText: rem(20);

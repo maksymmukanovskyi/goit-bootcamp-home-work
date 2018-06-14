@@ -16,14 +16,14 @@
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
-    font-size: 0.875rem;
-    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: $smallTitle;
+    font-family: $fontMontserrat, sans-serif;
     font-weight: 400;
-    color: #333333;
+    color: $gray;
   }
 
   &__span{
-    color: #f38181;
+    color: $pink;
   }
 
 }
@@ -41,9 +41,9 @@
   &__btn--form {
     -ms-flex-preferred-size: 35%;
     flex-basis: 35%;
-    background-color: #95e1d3;
+    background-color: $svgcolor;
     border: none;
-    color: #fff;
+    color: $white;
     padding: 1rem 2rem;
   }
 
@@ -51,9 +51,9 @@
     -ms-flex-preferred-size: 65%;
     flex-basis: 65%;
     padding-left: 0.9375rem;
-    font-size: 1.125rem;
-    color: #999999;
+    font-size: $emailText;
+    color: $midGray;
     display: inline-block;
-    border: 0.0625rem solid #ccc;
+    border: 0.0625rem solid $formbordercolor;
   }
 }

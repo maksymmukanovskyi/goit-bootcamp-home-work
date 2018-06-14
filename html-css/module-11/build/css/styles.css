@@ -406,7 +406,7 @@ ul {
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto Slab Regular/Roboto Slab Regular/Roboto Slab Regular.woff") format("woff"), url("../fonts/Roboto Slab Regular/Roboto Slab Regular/Roboto Slab Regular.woff2") format("woff2"), url("../fonts/Roboto Slab Regular/Roboto Slab Regular/Roboto Slab Regular.ttf") format("truetype");
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -427,9 +427,9 @@ ul {
 .eagle-bgwr {
   padding: 3.125rem 0 14.375rem;
   background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url(../img/pic/bg-min.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  background-size: cover;
 }
 
 .blank_bgwr {
@@ -445,14 +445,14 @@ ul {
 .main-desc {
   font-size: 1.5rem;
   color: #333333;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", sans-serif, cursive;
   margin-bottom: 1rem;
 }
 
 .section-title {
   font-size: 1.875rem;
   color: #333333;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 3.125rem;
@@ -474,7 +474,7 @@ ul {
   padding: 0.7rem 2.5rem;
   text-align: center;
   text-decoration: none;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
   cursor: pointer;
@@ -497,7 +497,7 @@ ul {
   font-size: 1.875rem;
   align-items: center;
   color: #fff;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 800;
   border-bottom: 0.0625rem transparent;
   transition: 1s;
@@ -523,7 +523,7 @@ ul {
   font-weight: 700;
   padding: 0.625rem 0;
   color: #fff;
-  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   text-transform: uppercase;
   border-bottom: 0.1875rem solid transparent;
   cursor: pointer;
@@ -557,14 +557,14 @@ ul {
 .welcome__template {
   font-size: 4.5rem;
   color: #fff;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", sans-serif, cursive;
   margin-bottom: 1rem;
 }
 
 .welcome__central {
   font-size: 9.375rem;
   color: #fff;
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 6rem;
@@ -593,7 +593,7 @@ ul {
 }
 
 .info-table__title {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 600;
   font-size: 0.875rem;
   color: #8e8e8e;
@@ -604,7 +604,8 @@ ul {
 
 .info-table__desc {
   font-size: 0.9375rem;
-  font-family: 'Roboto Slab Regular', sans-serif;
+  font-family: "Roboto Italic", sans-serif, sans-serif;
+  font-weight: 400;
   color: #999999;
   transition: 1s;
   cursor: pointer;
@@ -650,7 +651,8 @@ ul {
   width: 85%;
   text-align: center;
   font-size: 0.9375rem;
-  font-family: 'Roboto Slab Regular', sans-serif;
+  font-family: "Roboto Italic", sans-serif, sans-serif;
+  font-weight: 400;
   color: #999999;
   margin: 0 auto 4.6875rem;
 }
@@ -679,7 +681,8 @@ ul {
 .card__names {
   font-size: 0.875rem;
   max-height: 5.1875rem;
-  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
+  font-weight: 400;
   color: #333333;
   text-align: center;
   text-transform: uppercase;
@@ -690,9 +693,8 @@ ul {
 }
 
 .card__occupancy {
-  font-family: 'Roboto Slab Regular', sans-serif;
+  font-family: "Roboto Italic", sans-serif, sans-serif;
   font-weight: 300;
-  font-style: italic;
   text-align: center;
   color: #999999;
   margin-bottom: 1rem;
@@ -759,7 +761,7 @@ ul {
 .card--hover:hover .card__pic {
   -webkit-transform: translate(-0.625rem, -0.625rem);
   transform: translate(-0.625rem, -0.625rem);
-  box-shadow: 0.625rem 0.625rem 0.0625rem 0.1875rem #95e1dd;
+  box-shadow: 0.625rem 0.625rem 0.0625rem 0.1875rem #95e1d3;
 }
 
 .card__icon-wrapper:hover {
@@ -777,7 +779,7 @@ ul {
   -ms-grid-row-align: center;
   align-self: center;
   font-size: 0.875rem;
-  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: "Montserrat", sans-serif, sans-serif;
   font-weight: 400;
   color: #333333;
 }
@@ -803,7 +805,7 @@ ul {
 .form__email {
   flex-basis: 65%;
   padding-left: 0.9375rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: #999999;
   display: inline-block;
   border: 0.0625rem solid #ccc;
